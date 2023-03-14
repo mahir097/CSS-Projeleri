@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #131034;
+}
+
+.signup-form {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: url(https://addons-media.operacdn.com/media/CACHE/images/themes/05/144705/1.0-rev1/images/0993404e-79e0-4052-923d-89236e7c102f/e4f4077f6d1f715a07786ff7692a8d1d.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.signup-form h1 {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+}
+
+.txt {
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.signup-btn {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #538fef;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+  display: block;
+}
+
+.signup-btn:hover {
+  transform: scale(0.96);
+  background: #fff;
+  color: #538fef;
+}
+
+.signup-form a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.8s;
+  display: block;
+}
+
+.signup-form a:hover {
+  color: yellow;
+}
